@@ -1,0 +1,27 @@
+{
+  "name": "wn-node-typescript-api",
+  "version": "1.0.0",
+  "description": "TypeScript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darlley/wn-node-typescript-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescrit",
+    "rest",
+    "api",
+    "javascript",
+    "mongodb"
+  ],
+  "author": "Darlley Brito/Waldemar Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darlley/wn-node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/Darlley/wn-node-typescript-api#readme"
+}
