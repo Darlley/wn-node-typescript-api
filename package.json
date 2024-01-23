@@ -4,7 +4,8 @@
   "description": "TypeScript Node.js API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/Darlley/wn-node-typescript-api/issues"
   },
-  "homepage": "https://github.com/Darlley/wn-node-typescript-api#readme"
+  "homepage": "https://github.com/Darlley/wn-node-typescript-api#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
 }
